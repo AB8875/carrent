@@ -19,7 +19,7 @@ export const registerUser = async (payload: RegisterPayload) => {
 };
 
 // ✅ POST /auth/login
-export const loginUser = async (payload: LoginPayload) => {
-  const response = await axiosInstance.post("/api/auth/login", payload);
-  return response.data;
-};
+// export const loginUser = async (payload: LoginPayload) => {
+//   const response = await axiosInstance.post("/api/auth/login", payload);
+//   return response.data;
+// };

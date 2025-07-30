@@ -7,8 +7,8 @@ import { usePathname } from "next/navigation";
 
 import Image from "next/image";
 import api from "@/utils/axiosInstance";
-import { FBIcon } from "../helper/user/Icon";
-import { InstaIcon, UTubeIcon } from "../helper/partner/Icon";
+
+import { FBIcon, InstaIcon, UTubeIcon } from "../helper/partner/Icon";
 import { footerData } from "../helper/partner/Helper";
 import { footerDataApplicant } from "../helper/user/Helper";
 

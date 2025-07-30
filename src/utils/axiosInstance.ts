@@ -1,25 +1,12 @@
 // src/utils/axiosInstance.ts
 import axios from "axios";
 
-// ✅ You can use .env.local to manage URLs per environment
-const baseURL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5002";
+const baseURL = process.env.NEXT_PUBLIC_API || "http://localhost:5002";
 
 const api = axios.create({
   baseURL,
-  headers: {
-    "Content-Type": "application/json",
-  },
+  withCredentials: true,
 });
-
-// ✅ Automatically add JWT token from localStorage to every request
-api.interceptors.request.use((config) => {
-  if (typeof window !== "undefined") {
-    const token = localStorage.getItem("token");
-    if (token) {
-      config.headers.Authorization = `Bearer ${token}`;
-    }
-  }
-  return config;
-});
+console.log("🔗 API Base URL:", process.env.NEXT_PUBLIC_API);
 
 export default api;

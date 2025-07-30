@@ -1,11 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
+import { useSession } from "next-auth/react";
 import ProfileSetting from "./ProfileSetting";
 import PasswordSettings from "./PasswordSettings";
 import AccountSettings from "./AccountSettings";
 import AddAccounModal from "./AddAccounModal";
-
 import api from "@/utils/axiosInstance";
 import TabLayout from "../common/TabLayout";
 import { passwordSettings, profileSettingData } from "../helper/ProfileHelper";
@@ -39,6 +38,7 @@ function ProfileInformation() {
 
     return initialValues;
   });
+  const { data: session } = useSession();
 
   useEffect(() => {
     document.body.style.overflow = isModalOpen ? "hidden" : "auto";
@@ -100,7 +100,13 @@ function ProfileInformation() {
   useEffect(() => {
     async function getProfile() {
       try {
-        const res = await api.get("/profile");
+        const res = await api.get("/auth/profile", {
+          headers: {
+            Authorization: `Bearer ${session?.user?.token}`,
+          },
+        });
+        console.log("🔐 Session token:", session?.user?.token);
+
         setUserdata(res?.data?.data);
         setFormValues((prev) => ({
           ...prev,
@@ -112,12 +118,16 @@ function ProfileInformation() {
           phNumber: res?.data?.data?.phoneNumber,
           location: res?.data?.data?.location,
         }));
+        console.log("🔐 Session token:", session?.user?.token);
       } catch (error) {
-        alert("Somthing Wrong in Get User Data");
+        alert("Something went wrong while fetching profile data ❌");
       }
     }
-    getProfile();
-  }, []);
+
+    if (session?.user?.token) {
+      getProfile();
+    }
+  }, [session]);
 
   return (
     <div className="relative mb-2.5 flex h-full w-full flex-col overflow-hidden rounded-[20px] sm:mr-4 lg:mr-[30px] lg:border lg:border-[#d9d9d9] lg:bg-[#f9f9f9]">

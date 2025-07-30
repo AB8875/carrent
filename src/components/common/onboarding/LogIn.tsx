@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import api from "@/utils/axiosInstance";
 
+import { signIn, useSession } from "next-auth/react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
@@ -52,19 +52,20 @@ const LogIn = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const res = await api.post("/auth/login", {
+      const res = await signIn("credentials", {
         username: values.username,
         password: values.password,
+        redirect: false,
       });
-      console.log(res);
 
-      localStorage.setItem("token", res.data.data.token);
-      localStorage.setItem("userId", res.data.data.user._id);
-
-      router.push("/dashboard");
-    } catch (err: any) {
-      console.error("Login failed:", err?.response?.data || err.message);
-      alert("Invalid username or password");
+      if (res?.error) {
+        alert("Invalid username or password");
+      } else {
+        router.push("/partner"); // 🔁 Redirect after successful login
+      }
+    } catch (err) {
+      console.error("Login error:", err);
+      alert("Something went wrong. Try again.");
     }
   };
 

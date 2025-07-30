@@ -1,11 +1,8 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import "leaflet/dist/leaflet.css";
 import "../style/globals.css";
-import { AuthProvider } from "@/AuthContext";
-import { ThemeProvider } from "@/components/theme-provider";
-import LayoutWrapperProvider from "./LayoutWrapperProvider";
-
-// Import the client component here
+import Providers from "./Providers"; // ✅ Import client wrapper
 
 export const metadata: Metadata = {
   title: "Api",
@@ -18,20 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <AuthProvider>
-      <html lang="en">
-        <body>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {/* Render the LayoutWrapperProvider */}
-            <LayoutWrapperProvider>{children}</LayoutWrapperProvider>
-          </ThemeProvider>
-        </body>
-      </html>
-    </AuthProvider>
+    <html lang="en">
+      <body>
+        <Providers>{children}</Providers> {/* ✅ wrapped client-side */}
+      </body>
+    </html>
   );
 }
