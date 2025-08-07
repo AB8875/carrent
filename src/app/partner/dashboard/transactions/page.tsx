@@ -1,5 +1,5 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
-import Payment from "@/components/partner/pages/profile/Payment";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
+import Payment from "@/components/pages/partner/profile/Payment";
 import React from "react";
 
 function page() {

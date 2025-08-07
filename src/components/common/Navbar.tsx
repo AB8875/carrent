@@ -4,7 +4,7 @@ import { ThemeToggler } from "./ThemeToggler";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { navData } from "../helper/partner/Helper";
 import { navApplicantData } from "../helper/Helper";
@@ -16,6 +16,10 @@ import SmallScreenSideBar from "./profile-sidebar/SmallScreenSideBar";
 
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { data: session, status } = useSession();
+
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => setIsClient(true), []);
   const openSidebar = () => setIsSidebarOpen(true);
   const closeSidebar = () => setIsSidebarOpen(false);
   useEffect(() => {
@@ -33,6 +37,10 @@ function Navbar() {
     };
   }, [isSidebarOpen]);
   const pathname = usePathname();
+
+  if (!isClient) return null; // 🛡️ Prevent SSR issues
+  const isLoggedIn = !!session;
+
   return (
     <>
       {!pathname.includes("/profile") && (
@@ -108,14 +116,14 @@ function Navbar() {
                   }
                 />
               )}
-              {!pathname.includes("/auth") && (
+              {!isLoggedIn && !pathname.includes("/auth") && (
                 <LinkBlackBtn
                   path="/auth/login/partner"
                   className="hidden md:flex"
                   title="Log In"
                 />
               )}
-              {pathname.includes("/auth") && (
+              {isLoggedIn && pathname === "/" && (
                 <div className="hidden gap-6 sm:flex md:gap-10">
                   <LinkBlackBtn
                     path="/auth/login/partner"

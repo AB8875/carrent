@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import React from "react";
 
 function page() {

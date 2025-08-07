@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from "react";
+import { signOut } from "next-auth/react";
 import {
   Sheet,
   SheetContent,

@@ -1,10 +1,7 @@
 "use client";
 
 import Heading from "@/components/common/Heading";
-import {
-  DeleteIcon,
-  EditPenIcon,
-} from "@/components/common/icon/ApplicantIcon";
+
 import Image from "next/image";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,8 +13,10 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination } from "swiper/modules";
-import { myCarsImg } from "@/components/common/helper/ApplicantHelper";
+
 import { usePathname } from "next/navigation";
+import { myCarsImg } from "@/components/helper/user/Helper";
+import { DeleteIcon, EditPenIcon } from "@/components/helper/user/Icon";
 
 function CarImg() {
   const pathName = usePathname();
@@ -31,7 +30,7 @@ function CarImg() {
 
   const handleDelete = (indexToDelete: number) => {
     setImages((prevImages) =>
-      prevImages.filter((_, idx) => idx !== indexToDelete),
+      prevImages.filter((_, idx) => idx !== indexToDelete)
     );
   };
 
@@ -85,13 +84,22 @@ function CarImg() {
                       </div>
                     )}
                   <div
-                    className={`bg-primary flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full p-2 xl:h-[40px] xl:w-[40px] ${pathName === "/partner/dashboard/my-car/car-details" ? "hidden" : ""}`}
+                    className={`bg-primary flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full p-2 xl:h-[40px] xl:w-[40px] ${
+                      pathName === "/partner/dashboard/my-car/car-details"
+                        ? "hidden"
+                        : ""
+                    }`}
                   >
                     <EditPenIcon className="h-[20px] w-[20px] lg:h-[25px] lg:w-[25px]" />
                   </div>
                   <div
                     onClick={() => handleDelete(index)}
-                    className={`bg-primary flex h-[20px] w-[20px] cursor-pointer items-center justify-center rounded-full p-2 lg:h-[20px] lg:w-[20px] xl:h-[40px] xl:w-[40px] ${pathName === "/partner/dashboard/my-car/car-details" || "/partner/dashboard/my-car/edit-details/features" ? "hidden" : ""} `}
+                    className={`bg-primary flex h-[20px] w-[20px] cursor-pointer items-center justify-center rounded-full p-2 lg:h-[20px] lg:w-[20px] xl:h-[40px] xl:w-[40px] ${
+                      pathName === "/partner/dashboard/my-car/car-details" ||
+                      "/partner/dashboard/my-car/edit-details/features"
+                        ? "hidden"
+                        : ""
+                    } `}
                   >
                     <DeleteIcon className="h-[20px] w-[20px] lg:h-[25px] lg:w-[25px]" />
                   </div>

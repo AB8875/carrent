@@ -2,11 +2,12 @@
 import React, { useState } from "react";
 import CarImg from "../CarImg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { tabData, tabName } from "@/components/common/helper/PartnerHelper";
-import { BlueTickIcon } from "@/components/common/icon/PartnerIcon";
+
 import CommonYellowBtn from "@/components/common/CommonYellowBtn";
 import YellowBorderCommonBtn from "@/components/common/YellowBorderCommonBtn";
 import Heading from "@/components/common/Heading";
+import { tabData, tabName } from "@/components/helper/partner/Helper";
+import { BlueTickIcon } from "@/components/helper/partner/Icon";
 
 function EditDetails() {
   const [selectedItems, setSelectedItems] = useState<{
@@ -51,7 +52,9 @@ function EditDetails() {
               {tabName.map((item, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`data-[state=active]:text-primary text-gray flex w-full border-0 text-xl leading-[144%] font-semibold !shadow-none md:text-2xl lg:text-[28px] ${index === 0 ? "!text-primary" : ""} ${index === 1 ? "!text-gray" : ""}`}
+                  className={`data-[state=active]:text-primary text-gray flex w-full border-0 text-xl leading-[144%] font-semibold !shadow-none md:text-2xl lg:text-[28px] ${
+                    index === 0 ? "!text-primary" : ""
+                  } ${index === 1 ? "!text-gray" : ""}`}
                   value={item.value}
                 >
                   <div className="flex w-full items-center justify-center">

@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import DocumentDetailsVerification from "@/components/profile/documents-vefification/DocumentDetailsVerification";
 import React from "react";
 

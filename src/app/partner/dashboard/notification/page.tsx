@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import NotificationTab from "@/components/profile/NotificationTab";
 import React from "react";
 

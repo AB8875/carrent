@@ -1,6 +1,6 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
-import ReviewMyCars from "@/components/partner/pages/profile/ReviewMyCars";
 // import Image from "next/image";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
+import ReviewMyCars from "@/components/pages/partner/profile/ReviewMyCars";
 import React from "react";
 
 function page() {

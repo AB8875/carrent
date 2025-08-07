@@ -121,7 +121,6 @@ const BookNow: React.FC<IPROPS> = ({ secData, closeModal }) => {
           </Swiper>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };

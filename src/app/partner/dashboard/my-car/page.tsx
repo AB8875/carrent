@@ -1,5 +1,6 @@
 // import MyCar from "@/components/common/profile/MyCar";
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
+
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import Mycar from "@/components/profile/partner-my-car/my-car/Mycar";
 import React from "react";
 

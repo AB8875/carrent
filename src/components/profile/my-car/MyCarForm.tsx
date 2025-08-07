@@ -160,21 +160,6 @@ function MyCarForm() {
               </Select>
             </div>
 
-            <div className="w-full">
-              <label
-                htmlFor="exteriorBody"
-                className="text-sm leading-[144%] font-semibold md:text-lg xl:text-2xl"
-              >
-                Exterior Body
-              </label>
-              <input
-                type="text"
-                id="exteriorBody"
-                placeholder="Silver Metallic"
-                className="mt-2 w-full rounded bg-white px-3 py-1.5 text-sm leading-[144%] !font-normal !text-[rgba(0,0,0,0.70)] outline-none placeholder:text-[#000000B2] sm:mt-3 sm:py-2 md:mt-4 md:px-5 md:py-3 md:text-xl lg:rounded-[10px] xl:mt-5 xl:px-[38px] xl:py-[19px] xl:text-[27px]"
-              />
-            </div>
-
             <div>
               <p className="text-sm leading-[144%] font-semibold md:text-lg xl:text-2xl">
                 Transmission
@@ -235,21 +220,6 @@ function MyCarForm() {
                 type="text"
                 id="mileage"
                 placeholder="10ML"
-                className="mt-2 w-full rounded bg-white px-3 py-1.5 text-sm leading-[144%] !font-normal !text-[rgba(0,0,0,0.70)] outline-none placeholder:text-[#000000B2] sm:mt-3 sm:py-2 md:mt-4 md:px-5 md:py-3 md:text-xl lg:rounded-[10px] xl:mt-5 xl:px-[38px] xl:py-[19px] xl:text-[27px]"
-              />
-            </div>
-
-            <div className="w-full">
-              <label
-                htmlFor="interiorBody"
-                className="text-sm leading-[144%] font-semibold md:text-lg xl:text-2xl"
-              >
-                Interior body
-              </label>
-              <input
-                type="text"
-                id="interiorBody"
-                placeholder="Jet black"
                 className="mt-2 w-full rounded bg-white px-3 py-1.5 text-sm leading-[144%] !font-normal !text-[rgba(0,0,0,0.70)] outline-none placeholder:text-[#000000B2] sm:mt-3 sm:py-2 md:mt-4 md:px-5 md:py-3 md:text-xl lg:rounded-[10px] xl:mt-5 xl:px-[38px] xl:py-[19px] xl:text-[27px]"
               />
             </div>

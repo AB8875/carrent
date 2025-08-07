@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import ProfileInformation from "@/components/profile/ProfileInformation";
 import React from "react";
 

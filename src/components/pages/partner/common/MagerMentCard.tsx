@@ -1,5 +1,4 @@
-import { DollarIcon } from "@/components/common/icon/ApplicantIcon";
-
+import { DollarIcon } from "@/components/helper/user/Icon";
 import React from "react";
 
 function MagerMentCard() {
@@ -12,7 +11,6 @@ function MagerMentCard() {
         <h3>Total Revenue</h3>
         <span>$800</span>
       </div>
-      <div></div>
     </div>
   );
 }

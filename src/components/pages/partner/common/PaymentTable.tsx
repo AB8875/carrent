@@ -1,5 +1,6 @@
 import CommonMyBookingTable from "@/components/common/CommonMyBookingTable";
-import { partnerPaymentTableData } from "@/components/common/helper/ApplicantHelper";
+import { partnerPaymentTableData } from "@/components/helper/user/Helper";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React from "react";
 

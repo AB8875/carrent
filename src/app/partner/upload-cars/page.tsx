@@ -3,6 +3,7 @@ import ContactInformation from "@/components/common/ContactInformation";
 import ListExperience from "@/components/pages/partner/common/ListExperience";
 import UploadCars from "@/components/pages/partner/common/UploadCars";
 import CarDetails from "@/components/pages/partner/upload-cars/CarDetails";
+// import CarDetails from "@/components/pages/partner/upload-cars/CarDetails";
 import Hero from "@/components/pages/partner/upload-cars/Hero";
 
 import React from "react";

@@ -1,8 +1,6 @@
 import CompnyLogo from "@/components/common/BrandLogo";
-
 import React from "react";
 import CustomerSaying from "@/components/common/CustomerSaying";
-
 import AskQuestion from "@/components/common/AskQuestion";
 import ContactInformation from "@/components/common/ContactInformation";
 import SpecialOffer from "@/components/common/SpecialOffer";

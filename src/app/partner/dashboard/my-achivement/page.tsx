@@ -1,5 +1,6 @@
-import DashboardLayout from "@/components/dashbord/DashboardLayout";
-import CertefecatesAchievments from "@/components/partner/pages/profile/CertefecatesAchievments";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
+import CertefecatesAchievments from "@/components/pages/partner/profile/CertefecatesAchievments";
+
 import React from "react";
 
 function page() {

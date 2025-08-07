@@ -74,7 +74,7 @@ export const BlubIcon = () => {
         d="M32.0833 5.83203C19.1975 5.83203 8.75 16.1716 8.75 28.9291C8.75 33.2837 9.96625 37.3583 12.0838 40.832M42.2917 32.082V37.9154M51.0417 32.082V37.9154M42.2917 8.7487V14.582M51.0417 8.7487V14.582M37.9167 18.957H32.0833M37.9167 27.707H32.0833M61.25 18.957H55.4167M61.25 27.707H55.4167M40.8333 55.4154L40.4542 57.3024C40.0458 59.3645 39.8388 60.3941 39.375 61.2108C38.6604 62.4695 37.5034 63.4176 36.1288 63.8708C35.2392 64.1654 34.1833 64.1654 32.0833 64.1654C29.9833 64.1654 28.9275 64.1654 28.0379 63.8737C26.6628 63.4198 25.5057 62.4706 24.7917 61.2108C24.3279 60.3941 24.1208 59.3645 23.7125 57.3024L23.3333 55.4154M49.5833 14.582H43.75C40.9996 14.582 39.6258 14.582 38.7713 15.4366C37.9167 16.2912 37.9167 17.6649 37.9167 20.4154V26.2487C37.9167 28.9991 37.9167 30.3729 38.7713 31.2274C39.6258 32.082 40.9996 32.082 43.75 32.082H49.5833C52.3338 32.082 53.7075 32.082 54.5621 31.2274C55.4167 30.3729 55.4167 28.9991 55.4167 26.2487V20.4154C55.4167 17.6649 55.4167 16.2912 54.5621 15.4366C53.7075 14.582 52.3338 14.582 49.5833 14.582ZM18.6171 49.8679C18.3487 49.0629 18.2146 48.6574 18.2292 48.3308C18.2457 47.993 18.3597 47.6673 18.5574 47.3929C18.7551 47.1186 19.0281 46.9074 19.3433 46.7849C19.6467 46.6654 20.0725 46.6654 20.9183 46.6654H43.2483C44.0971 46.6654 44.52 46.6654 44.8233 46.782C45.139 46.9047 45.4123 47.1163 45.61 47.3912C45.8078 47.6661 45.9216 47.9925 45.9375 48.3308C45.9521 48.6574 45.8179 49.0599 45.5496 49.8679C45.0537 51.3583 44.8058 52.1049 44.4238 52.7087C43.6246 53.9705 42.3719 54.8776 40.9238 55.2433C40.2296 55.4154 39.4479 55.4154 37.8817 55.4154H26.285C24.7188 55.4154 23.9342 55.4154 23.2429 55.2404C21.7953 54.8754 20.5426 53.9694 19.7429 52.7087C19.3608 52.1049 19.1129 51.3583 18.6171 49.8679Z"
         stroke="#0A1C2A"
         strokeWidth="5"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
     </svg>
@@ -128,14 +128,14 @@ export const BulbTwoIcon = () => {
         d="M15.0004 40.832C12.8119 37.2481 11.6581 33.1284 11.6667 28.9291C11.6667 16.1716 22.1142 5.83203 35 5.83203C47.8858 5.83203 58.3333 16.1716 58.3333 28.9291C58.3419 33.1284 57.1881 37.2481 54.9996 40.832M43.75 55.4154L43.3708 57.3024C42.9625 59.3645 42.7554 60.3941 42.2917 61.2108C41.5771 62.4695 40.42 63.4176 39.0454 63.8708C38.1558 64.1654 37.1 64.1654 35 64.1654C32.9 64.1654 31.8442 64.1654 30.9546 63.8737C29.5795 63.4198 28.4224 62.4706 27.7083 61.2108C27.2446 60.3941 27.0375 59.3645 26.6292 57.3024L26.25 55.4154M21.5338 49.8679C21.2654 49.0629 21.1313 48.6574 21.1458 48.3308C21.1623 47.993 21.2763 47.6673 21.4741 47.3929C21.6718 47.1186 21.9448 46.9074 22.26 46.7849C22.5633 46.6654 22.9892 46.6654 23.835 46.6654H46.165C47.0138 46.6654 47.4367 46.6654 47.74 46.782C48.0557 46.9047 48.3289 47.1163 48.5267 47.3912C48.7245 47.6661 48.8382 47.9925 48.8542 48.3308C48.8688 48.6574 48.7346 49.0599 48.4663 49.8679C47.9704 51.3583 47.7225 52.1049 47.3404 52.7087C46.5413 53.9705 45.2885 54.8776 43.8404 55.2433C43.1463 55.4154 42.3646 55.4154 40.7983 55.4154H29.2017C27.6354 55.4154 26.8508 55.4154 26.1596 55.2404C24.7119 54.8754 23.4593 53.9694 22.6596 52.7087C22.2775 52.1049 22.0296 51.3583 21.5338 49.8679Z"
         stroke="black"
         strokeWidth="3"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M24.0625 28.4375L30.625 35V46.6667M45.9375 28.4375L39.375 35V46.6667M24.0625 30.625C24.6427 30.625 25.1991 30.3945 25.6093 29.9843C26.0195 29.5741 26.25 29.0177 26.25 28.4375C26.25 27.8573 26.0195 27.3009 25.6093 26.8907C25.1991 26.4805 24.6427 26.25 24.0625 26.25C23.4823 26.25 22.9259 26.4805 22.5157 26.8907C22.1055 27.3009 21.875 27.8573 21.875 28.4375C21.875 29.0177 22.1055 29.5741 22.5157 29.9843C22.9259 30.3945 23.4823 30.625 24.0625 30.625ZM45.9375 30.625C45.3573 30.625 44.8009 30.3945 44.3907 29.9843C43.9805 29.5741 43.75 29.0177 43.75 28.4375C43.75 27.8573 43.9805 27.3009 44.3907 26.8907C44.8009 26.4805 45.3573 26.25 45.9375 26.25C46.5177 26.25 47.0741 26.4805 47.4843 26.8907C47.8945 27.3009 48.125 27.8573 48.125 28.4375C48.125 29.0177 47.8945 29.5741 47.4843 29.9843C47.0741 30.3945 46.5177 30.625 45.9375 30.625Z"
         stroke="black"
         strokeWidth="3"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
     </svg>
@@ -639,8 +639,8 @@ export const MPplayerIcon = () => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M46.667 25.0721C52.0003 28.1521 52.0003 35.8481 46.667 38.9281L22.667 52.7841C17.3337 55.8641 10.667 52.0161 10.667 45.8561V18.1441C10.667 11.9841 17.3337 8.13614 22.667 11.2161L46.667 25.0721ZM56.0003 13.3335C56.0003 12.6262 55.7194 11.948 55.2193 11.4479C54.7192 10.9478 54.0409 10.6668 53.3337 10.6668C52.6264 10.6668 51.9481 10.9478 51.448 11.4479C50.9479 11.948 50.667 12.6262 50.667 13.3335V50.6668C50.667 51.3741 50.9479 52.0523 51.448 52.5524C51.9481 53.0525 52.6264 53.3335 53.3337 53.3335C54.0409 53.3335 54.7192 53.0525 55.2193 52.5524C55.7194 52.0523 56.0003 51.3741 56.0003 50.6668V13.3335Z"
         fill="#F9B701"
       />
@@ -677,20 +677,20 @@ export const StereoIcon = () => {
       <path
         d="M49.3333 6.6665H14.6667C13.1939 6.6665 12 7.86041 12 9.33317V54.6665C12 56.1393 13.1939 57.3332 14.6667 57.3332H49.3333C50.8061 57.3332 52 56.1393 52 54.6665V9.33317C52 7.86041 50.8061 6.6665 49.3333 6.6665Z"
         stroke="#F9B701"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <path
         d="M12 24H52"
         stroke="#F9B701"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M32 48C36.4183 48 40 44.4183 40 40C40 35.5817 36.4183 32 32 32C27.5817 32 24 35.5817 24 40C24 44.4183 27.5817 48 32 48Z"
         fill="#F9B701"
         stroke="#F9B701"
-        stroke-width="2"
+        strokeWidth="2"
       />
     </svg>
   );
@@ -727,8 +727,8 @@ export const AirBagIcon = () => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M21.2961 16.3023V20.4336L16.3675 20.8351C14.6743 20.9714 13.0757 21.6715 11.8273 22.8234C10.5789 23.9753 9.7527 25.5125 9.48092 27.1893C9.36067 27.94 9.25011 28.6916 9.14925 29.4441C9.12661 29.6262 9.16193 29.8108 9.2502 29.9717C9.33847 30.1326 9.47519 30.2615 9.64094 30.3402L9.86497 30.445C25.6603 37.9222 44.5744 37.9222 60.3668 30.445L60.5908 30.3402C60.7561 30.2611 60.8922 30.1319 60.9799 29.9711C61.0676 29.8103 61.1025 29.6259 61.0796 29.4441C60.9809 28.691 60.8713 27.9393 60.7509 27.1893C60.4791 25.5125 59.6529 23.9753 58.4045 22.8234C57.1561 21.6715 55.5574 20.9714 53.8642 20.8351L48.9357 20.4366V16.3052C48.936 15.0857 48.4986 13.9066 47.703 12.9824C46.9074 12.0581 45.8066 11.4501 44.6006 11.2689L41.0511 10.7365C37.1162 10.1484 33.1156 10.1484 29.1807 10.7365L25.6312 11.2689C24.4257 11.4501 23.3252 12.0576 22.5297 12.9813C21.7342 13.9049 21.2965 15.0833 21.2961 16.3023ZM40.4023 15.0512C36.8975 14.5277 33.3343 14.5277 29.8295 15.0512L26.28 15.5836C26.1077 15.6094 25.9505 15.6961 25.8368 15.828C25.7231 15.9598 25.6604 16.1281 25.6603 16.3023V20.1282C31.9589 19.7684 38.2729 19.7684 44.5715 20.1282V16.3023C44.5714 16.1281 44.5087 15.9598 44.395 15.828C44.2813 15.6961 44.124 15.6094 43.9518 15.5836L40.4023 15.0512Z"
         fill="#F9B701"
       />
@@ -769,16 +769,16 @@ export const BreakIcon = () => {
       <path
         d="M35.794 59.0582C48.6493 59.0582 59.0694 48.6381 59.0694 35.7827C59.0694 22.9274 48.6493 12.5073 35.794 12.5073C22.9387 12.5073 12.5186 22.9274 12.5186 35.7827C12.5186 48.6381 22.9387 59.0582 35.794 59.0582Z"
         stroke="#F9B701"
-        stroke-width="5.81886"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="5.81886"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M35.7935 41.6011C37.3367 41.6011 38.8168 40.9881 39.908 39.8968C40.9993 38.8056 41.6123 37.3255 41.6123 35.7823C41.6123 34.239 40.9993 32.759 39.908 31.6677C38.8168 30.5765 37.3367 29.9634 35.7935 29.9634C34.2502 29.9634 32.7702 30.5765 31.6789 31.6677C30.5877 32.759 29.9746 34.239 29.9746 35.7823C29.9746 37.3255 30.5877 38.8056 31.6789 39.8968C32.7702 40.9881 34.2502 41.6011 35.7935 41.6011ZM35.7935 6.68799C39.6142 6.68799 43.3975 7.44053 46.9274 8.90266C50.4572 10.3648 53.6646 12.5079 56.3662 15.2095C59.0679 17.9112 61.2109 21.1185 62.6731 24.6484C64.1352 28.1782 64.8877 31.9615 64.8877 35.7823H53.2588C53.2588 31.1502 51.4187 26.7078 48.1433 23.4324C44.8679 20.1571 40.4255 18.317 35.7935 18.317V6.68799Z"
         stroke="#F9B701"
-        stroke-width="5.81886"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="5.81886"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -856,8 +856,8 @@ export const MemorySeatIcon = () => {
         d="M53.2502 48.4196L61.9785 6.23291C61.9785 6.23291 46.704 9.14234 46.704 14.9612C46.704 18.598 52.5228 20.78 50.3408 22.9621C48.1587 25.1442 40.1578 27.3263 40.1578 33.1451C40.1578 36.7819 42.5435 39.4877 40.1578 41.8734C37.9757 44.0555 35.7936 42.9121 32.1568 41.8734C28.0836 40.7096 19.7918 39.6913 16.8823 40.4187C13.9729 41.146 11.0635 42.6008 11.0635 46.9649C11.0635 49.3652 12.5182 52.0564 16.155 52.7838C19.7918 53.5111 24.1559 49.8743 29.9748 49.8743C35.7936 49.8743 43.0672 54.2385 47.4313 54.2385C51.7955 54.2385 53.2502 48.4196 53.2502 48.4196Z"
         fill="#F9B701"
         stroke="#F9B701"
-        stroke-width="2.18207"
-        stroke-linejoin="round"
+        strokeWidth="2.18207"
+        strokeLinejoin="round"
       />
       <path
         d="M16.8817 52.7837L12.5176 64.4214H60.5231L51.7949 52.7837"
@@ -866,8 +866,8 @@ export const MemorySeatIcon = () => {
       <path
         d="M16.8817 52.7837L12.5176 64.4214H60.5231L51.7949 52.7837"
         stroke="#F9B701"
-        stroke-width="2.18207"
-        stroke-linejoin="round"
+        strokeWidth="2.18207"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -917,8 +917,8 @@ export const CustomerIcon: React.FC<IconProps> = ({ className }) => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M14.5 5.49997C14.5 3.56698 12.933 2 11 2L10.8079 2.00516C8.96425 2.10486 7.49997 3.63144 7.49997 5.49997C7.49997 7.433 9.067 8.99998 11 8.99998L11.192 8.99478C13.0357 8.89513 14.5 7.36855 14.5 5.49997ZM12 17C12 18.0928 12.2921 19.1175 12.8027 20H4V16.4C4 13.4922 6.23444 11.1212 9.03358 11.0045L9.24995 11H12.75C13.6609 11 14.5177 11.2386 15.2644 11.6585C13.3262 12.6531 12 14.6717 12 17ZM15.061 21.0451L18 19.25L20.9389 21.0451L20.1399 17.6952L22.7552 15.4549L19.3225 15.1797L18 12L16.6774 15.1797L13.2447 15.4549L15.8601 17.6952L15.061 21.0451Z"
         fill="#F9B701"
         className={className}
@@ -975,8 +975,8 @@ export const TransactionIcon: React.FC<IconProps> = ({ className }) => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M12.0199 3C9.76136 3 7.70386 3.746 6.48636 4.3555C6.37636 4.4105 6.27369 4.46417 6.17836 4.5165C5.98936 4.6195 5.82836 4.7155 5.70036 4.8L7.08536 6.839L7.73736 7.0985C10.2854 8.384 13.7024 8.384 16.2509 7.0985L16.9909 6.7145L18.3004 4.8C18.0288 4.62355 17.7468 4.46376 17.4559 4.3215C16.2444 3.7185 14.2359 3 12.0204 3M8.79936 5.308C8.30903 5.21572 7.82466 5.09417 7.34886 4.944C8.48936 4.4375 10.1889 3.9 12.0204 3.9C13.2889 3.9 14.4884 4.158 15.4804 4.485C14.3179 4.6485 13.0774 4.926 11.8954 5.2675C10.9654 5.5365 9.87836 5.5075 8.79936 5.308ZM16.7794 7.84L16.6564 7.902C13.8534 9.316 10.1354 9.316 7.33236 7.902L7.21586 7.843C3.00436 12.4635 -0.210643 20.9985 12.0199 20.9985C24.2504 20.9985 20.9574 12.305 16.7794 7.84ZM11.5004 12C11.2351 12 10.9808 12.1054 10.7933 12.2929C10.6057 12.4804 10.5004 12.7348 10.5004 13C10.5004 13.2652 10.6057 13.5196 10.7933 13.7071C10.9808 13.8946 11.2351 14 11.5004 14V12ZM12.5004 11V10.5H11.5004V11C10.9699 11 10.4612 11.2107 10.0861 11.5858C9.71107 11.9609 9.50036 12.4696 9.50036 13C9.50036 13.5304 9.71107 14.0391 10.0861 14.4142C10.4612 14.7893 10.9699 15 11.5004 15V17C11.0654 17 10.6949 16.7225 10.5569 16.3335C10.5364 16.2699 10.5034 16.211 10.4597 16.1603C10.4161 16.1097 10.3627 16.0683 10.3028 16.0386C10.2429 16.0089 10.1777 15.9916 10.1109 15.9875C10.0442 15.9835 9.97735 15.9929 9.91432 16.0152C9.85128 16.0375 9.79335 16.0721 9.74395 16.1172C9.69456 16.1622 9.6547 16.2167 9.62673 16.2775C9.59876 16.3382 9.58326 16.4039 9.58113 16.4707C9.57901 16.5376 9.59031 16.6041 9.61436 16.6665C9.75221 17.0565 10.0076 17.3942 10.3454 17.633C10.6832 17.8719 11.0867 18.0001 11.5004 18V18.5H12.5004V18C13.0308 18 13.5395 17.7893 13.9146 17.4142C14.2896 17.0391 14.5004 16.5304 14.5004 16C14.5004 15.4696 14.2896 14.9609 13.9146 14.5858C13.5395 14.2107 13.0308 14 12.5004 14V12C12.9354 12 13.3059 12.2775 13.4439 12.6665C13.4643 12.7301 13.4974 12.789 13.541 12.8397C13.5846 12.8903 13.638 12.9317 13.6979 12.9614C13.7578 12.9911 13.823 13.0084 13.8898 13.0125C13.9565 13.0165 14.0234 13.0071 14.0864 12.9848C14.1494 12.9625 14.2074 12.9279 14.2568 12.8828C14.3062 12.8378 14.346 12.7833 14.374 12.7225C14.402 12.6618 14.4175 12.5961 14.4196 12.5293C14.4217 12.4624 14.4104 12.3959 14.3864 12.3335C14.2485 11.9435 13.9931 11.6058 13.6553 11.367C13.3175 11.1281 12.914 10.9999 12.5004 11ZM12.5004 15V17C12.7656 17 13.0199 16.8946 13.2075 16.7071C13.395 16.5196 13.5004 16.2652 13.5004 16C13.5004 15.7348 13.395 15.4804 13.2075 15.2929C13.0199 15.1054 12.7656 15 12.5004 15Z"
         fill="#F9B701"
         className={className}
@@ -1179,7 +1179,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="73.8353"
           height="5.38851"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1232,7 +1232,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="33.7249"
           height="10.1776"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1285,7 +1285,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="33.7249"
           height="10.1776"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1338,7 +1338,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="16.3639"
           height="7.75192"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1391,7 +1391,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="52.8324"
           height="12.075"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1444,7 +1444,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="178.601"
           height="26.9557"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1497,7 +1497,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="67.3989"
           height="24.3101"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1550,7 +1550,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="107.651"
           height="23.7211"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1603,7 +1603,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="100.736"
           height="7.95142"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -1638,7 +1638,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="92.1182"
           height="1.95596"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1673,7 +1673,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="75.399"
           height="2.21219"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1708,7 +1708,7 @@ export const Logo: React.FC<IconProps> = ({ className }) => {
           width="59.5879"
           height="1.95596"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1918,7 +1918,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="82.442"
           height="6.01647"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -1971,7 +1971,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="37.6564"
           height="11.3641"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2024,7 +2024,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="37.6564"
           height="11.3641"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2077,7 +2077,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="18.2714"
           height="8.65515"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2130,7 +2130,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="58.9908"
           height="13.4823"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2183,7 +2183,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="199.42"
           height="30.0975"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2236,7 +2236,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="75.2555"
           height="27.1439"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2289,7 +2289,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="120.199"
           height="26.4867"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2342,7 +2342,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="112.44"
           height="8.84031"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -2377,7 +2377,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="102.856"
           height="2.18355"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2412,7 +2412,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="84.1879"
           height="2.46968"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -2447,7 +2447,7 @@ export const FooterLogo: React.FC<IconProps> = ({ className }) => {
           width="66.5339"
           height="2.18355"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix

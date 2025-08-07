@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { ChangeEvent, useEffect, useRef, useState } from "react";
-
+import { signOut } from "next-auth/react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
@@ -38,11 +38,15 @@ function SmallScreenSideBar({ closeSidebar }: Props) {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-
   const handleLogOut = () => {
+    // Clear localStorage only if you're using custom keys
     localStorage.clear();
 
+    // Close modal
     setIsModalOpen(false);
+
+    // 🔒 Sign out from NextAuth and redirect to homepage
+    signOut({ callbackUrl: "/" });
   };
 
   // Close sidebar on outside click
